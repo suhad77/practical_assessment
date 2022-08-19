@@ -15,6 +15,11 @@ module.exports = {
       },
       lineHeight:{
         heading: '74px'
+      },
+      colors:{
+        gradient:'linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%)',
+        pcolor:'#888888'
+
       }
     },
   },
