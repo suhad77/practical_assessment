@@ -9,3 +9,4 @@ function Menu(e){
     console.log(bodyClick);
   }
 
+  new WOW().init();

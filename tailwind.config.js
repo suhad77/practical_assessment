@@ -23,7 +23,7 @@ module.exports = {
         
       },
       spacing:{
-        iheight: '70vh'
+        iheight: '50vh'
       }
     },
   },
