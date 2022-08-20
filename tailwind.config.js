@@ -9,6 +9,9 @@ module.exports = {
     //   xlg: '1440px'
     // },
     extend: {
+      screens:{
+        'mdx': {'max': '1023px'},
+      },
       fontFamily:{
         Roboto: "'Roboto', sans-serif",
         Noticia: "'Noticia Text', serif"
