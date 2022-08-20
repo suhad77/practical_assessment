@@ -13,7 +13,7 @@
 </head>
 <body>
   <!-- navbar start -->
-  <nav class="bg-white shadow p-2">
+  <nav class="bg-white shadow p-2" >
     <div class="container mx-auto items-center md:flex justify-between">
       <div class="flex justify-between items-center w-full">
         <div class="logo flex items-center">
@@ -26,12 +26,12 @@
           <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
         </span>
     </div>
-    <ul class="md:flex md:items-center hidden z-[999] md:z-auto md:static absolute md:bg-white bg-purple-500 w-1/3 top-[65px] left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500 ">
-        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10">Home</a></li>
-        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10  ">About</a></li>
-        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10  ">Contact</a></li>
-        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 ">Portfolio</a></li>
-        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 ">Blog</a></li>
+    <ul class="md:flex md:items-center hidden z-[999] md:z-auto md:static absolute md:bg-white bg-green-300 md:w1/3 rounded-br-lg top-[63px] left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 transition-all ease-in duration-500 ">
+        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 pr-32 md:pr-0">Home</a></li>
+        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 pr-32 md:pr-0">About</a></li>
+        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 pr-32 md:pr-0">Contact</a></li>
+        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 pr-32 md:pr-0">Portfolio</a></li>
+        <li class="md:mx-4 py-3 z-10"><a href="#" class="relative after:absolute after:border-b-2 after:border-b-red-600 after:left-0 after:-bottom-1 after:w-0 after:duration-500 after:flex-col ease-out md:ease-in hover:after:w-10 pr-32 md:pr-0">Blog</a></li>
     </ul>
     </div>
   </nav>
@@ -39,11 +39,13 @@
   <!-- navebar end -->
 
   <!-- hero section start -->
-  <section class="md:mt-48 block box-border relative">
-    <div class="container mx-auto text-center">
+  <section class="lg:pt-44 block box-border relative" style="background-image: url('image/bg_image_01.jpg'); background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;">
+    <div class="container mx-auto text-center ">
       <img src="image/Group 9118.png" alt="" class="mx-auto  relative">
       <h2 class="text-red-500 text-center pt-4 text-2xl font-bold font-Noticia">Hello, Myself Alex...</h2>
-      <h1 class="text-6xl text-center mx-auto  md:font-bold font-Noticia lg:w-2/3 py-4 leading-heading">Creating fast website and softwares </h1>
+      <h1 class="sm:text-6xl text-4xl text-center mx-auto  font-bold font-Noticia lg:w-2/3 py-4 sm:leading-heading">Creating fast website and softwares </h1>
       <p class="text-center text-pcolor text-xl md:w-3/5 mx-auto py-7 block">Lorem ipsum dolor sit amet, consecttur adipiscing Orci
         fauff cibus urna, sed senectus iaculis leo condimentum. Maenas nec adipiscing neque, pellentesque in. Metus fusce.</p>
         <a href="#" class="text-white p-4 bg-red-500 rounded-3xl my-6 inline-block text-center font-bold font-Roboto ">Know About Me</a>
@@ -60,19 +62,24 @@
           </div>
         </div>
     </div>
+    <!-- <div class="border-circle z-0 opacity-60 rounded-full w-[279px] h-[279px] absolute top-[146px] bg-transparent border-2 -right-48"></div>
+    <div class="border-circle z-0 opacity-60 rounded-full w-[75px] h-[75px] absolute top-[260px] bg-transparent border-2 left-[228px]"></div>
+    <div class="border-circle z-0 opacity-60 rounded-full w-[30px] h-[30px] absolute top-[282px] bg-transparent border-2 right-[399px]"></div>
+    <div class="border-circle z-0 opacity-60 rounded-full w-[135px] h-[135px] absolute top-[545px] bg-transparent border-2 right-[230px]"></div>
+    <div class="border-circle z-0 opacity-60 rounded-full bg-transparent absolute border-2 bottom-0 w-[62px] h-[62px] -right-9"></div>
+    <div class="border-circle z-0 opacity-60 rounded-full bg-transparent absolute border-2 top-[622px] w-[38px] h-[38px] left-[315px]"></div>
+    <div class="w-[377px] h-[377px] bg-transparent rounded-full border-circle z-0 opacity-60 border-2 absolute bottom-4 -left-48"></div> -->
   </section>
-
   <!-- hero section end -->
   <!-- about section start -->
 
-  <div class="continer">
-  <div class="bg-gray-100 my-10 lg:w-2/5 sm:w-3/4 w-full text-center md:h-96 mx-auto relative justify-between md:flex">
+  <div class="continer relative md:mt-14">
+    <img src="image/about-bg.png" alt="" class="mx-auto md:h-iheight h-[600px] sm:h-[540px] max-w-[70%]">
+  <div class="bg-center bg-[length:300px_300px] xl:top-14 items-center text-center mx-auto absolute top-0 justify-evenly md:flex">
 
-      <h2 class=" font-Noticia font-bold text-5xl md:absolute inset-2/4 lg:w-8/12 p-6 w-full md:w-full md:-left-2/4 lg:-left-1/3 md:top-10 top-1/4  text-start ">A Global network of 
-        Talent That changeing
-        the way Of creative</h2>
+      <h2 class="font-Noticia inline-block font-bold top-0 text-3xl sm:text-3xl md:text-4xl lg:text-5xl w-full sm:p-5 md:p-8 lg:p-12 p-5">A Global network of Talent That changeing the way Of creative</h2>
 
-        <p class="text-pcolor text-lg  md:absolute inset-2/4 lg:w-8/12 md:w-full md:top-10 p-6 w-full md:-right-48 top-1/4  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Males
+        <p class="text-pcolor text-lg  inline-block p-5 lg:p-12 md:p-8 sm:p-5 w-full top-0  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Males
           a est sagittis et nulla leo ut nulla aliquam. Nisi, fermentum venentis enim vel suspend wergisse eu magnis libero orci. Malesuada tortor aliquam malesuada vitae, ullamcorper nisl eget gravda et. Vivmus arcu laoreet gravida purus cras. Et laoreet sit feugiat vehicula dufzi, 
           ermentum venentis enim vel suspend wergisse eu magnis libe orci.</p>
     </div>
@@ -81,40 +88,43 @@
   <!-- about section end -->
   <!-- service section start -->
 
-  <h1 class="text-5xl font-bold text-center block py-3">Providing Services</h1>
+  <h1 class="md:text-5xl text-4xl sm:mt-28 mt-3 font-bold text-center block py-3 relative">Providing Services
+    <img src="image/Vector 105 (1).svg" alt="" class="container mx-auto w-auto -bottom-5 left-[35%] md:left-1/2 block absolute">
+  </h1>
+
   <div class="container block my-12 mx-auto w-full">
-      <div class="bg-gray-100 block mb-16 md:w-[1370px] mx-auto mt-90 bottom-1">
+    
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 sm:grid-cols-1 grid-cols-1 z-20">
+      <div class="shadow text-center m-5 px-5 bg-white rounded-lg">
+        <img src="image/Group 13.png" alt="" class="inline-block pt-12 pb-5">
+        <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
+        <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+        <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center ">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
+      </div>
 
-      <div class="mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1 justify-between">
-        <div class="shadow text-center w-auto bg-white rounded-lg">
-          <img src="image/Group 13.png" alt="" class="inline-block pt-12 pb-5">
-          <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
-          <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-          <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center ">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
-        </div>
+      <div class="shadow text-center m-5 px-5 bg-white rounded-lg">
+        <img src="image/Group 8.png" alt="" class="inline-block mx-atuo pt-6 ">
+        <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
+        <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+        <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
+      </div>
 
-        <div class="shadow text-center w-auto bg-white rounded-lg">
-          <img src="image/Group 8.png" alt="" class="inline-block mx-atuo pt-6 ">
-          <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
-          <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-          <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
-        </div>
-
-        <div class="shadow text-center w-auto bg-white  rounded-lg">
-          <img src="image/Group 6.png" alt="" class="inline-block pt-10">
-          <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
-          <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-          <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
-        </div>
+      <div class="shadow text-center m-5 px-5 bg-white  rounded-lg">
+        <img src="image/Group 6.png" alt="" class="inline-block pt-10">
+        <h2 class="font-bold font-Noticia text-center text-2xl my-5">Research And Design</h2>
+        <p class="text-pcolor text-lg mb-8 ">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+        <a href="#" class="text-red-600 mb-6 pl-5 flex justify-center items-center">View Details <ion-icon name="arrow-forward-outline" class="text-2xl "></ion-icon></a>
       </div>
     </div>
+    <div class="bg-gray-200 -mt-52 h-64 z-0"></div>
+
   </div>
 
   <!-- service design end -->
   <!-- experience design start -->
   <div class="container mx-auto md:flex justify-between mb-10 p-5">
     <div class="md:w-2/5">
-      <h1 class="font-bold text-5xl font-Noticia">I Have brunch Of Huge Experience.....</h1>
+      <h1 class="font-bold md:text-5xl text-4xl font-Noticia relative">I Have brunch Of Huge Experience.....<img src="image/Vector 106.svg" alt="" class="container mx-auto w-auto -bottom-5 left-10 md:left-1/4 block absolute"></h1>
     <p class="text-pcolor text-lg font-Roboto leading-7 border-b-2 border-gray-400 py-9">Lorem ipsum dolor sit amet, conse asdsd ctetur adipiscing elit. Malesa est sagittis et nualla leo ut nulla aliquam. Nisi, fermetum suspend vene ntis enim vel sussrf bedspend</p>
     <div class="sm:flex gap-5 my-7 ">
       <div class="bg-gray-100 text-center p-4">
@@ -155,11 +165,11 @@
   <!-- exprience section end -->
   <!-- testimonial part start -->
 
-  <h1 class="text-5xl font-bold text-center block py-3 mb-7">our Testimonial</h1>
-  <div class="container mx-auto bg-gray-200 p-16 block lg:w-3/5 md:w-4/5 items-center mb-10">
+  <h1 class="md:text-5xl text-4xl font-bold text-center block py-3 mb-7 relative">our Testimonial <img src="image/Vector 107.svg" alt="" class="container mx-auto md:w-auto md:h-auto w-48 h-10 -bottom-5 left-[38%] md:left-[45%] block absolute"></h1>
+  <div class="container mx-auto bg-gray-200 md:p-16 block xl:w-3/5 md:w-4/5 items-center m-3 mb-10">
     <div class="lg:flex gap-8 ">
       <div class="relative">
-        <img src="image/Group.svg" alt="" class="top-8 left-0 absolute ">
+        <img src="image/Group.svg" alt="" class="top-8 left-0 absolute md:w-auto ">
       <div class="lg:w-full md:w-auto py-20 pl-20">
         <div class="relative">
           <p class="md:pb-6 text-pcolor">  Lorem ipsum dolor sit amet, conse ctetur addipis cing elit. Malesa est sagittis et nulla leo ut nulsla aliquam. Nisi, fermentum venentis enim vel sussp end wergisse eu magnis libero orci. Males uasda eget gravda et. Vivmus arcu laoreet gravida purus cras. Et laoreet sit feugiat vehicula dufzi, eme tum venentis enim vel suspend wergisse eu maAgnis Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae delectus totam esse laboriosam temporibus repudiandae.</p>
@@ -182,41 +192,45 @@
   <!-- testimonial part end -->
   <!-- project part start -->
 
-  <h1 class="text-5xl font-bold text-center block py-3 mb-7">our Testimonial</h1>
+  <h1 class="md:text-5xl text-4xl font-bold text-center block py-3 mb-7 relative">My Selected projects <img src="image/Vector 104.svg" alt="" class="container mx-auto w-auto -bottom-5 sm:left-1/4 md:left-[42%] block absolute"></h1>
 
-  <div class="container mx-auto grid md:grid-cols-2 gap-5 mb-12 ">
+  <div class="container mx-auto grid md:grid-cols-2 gap-5 mb-12 p-5">
 
     <div class="relative">
-      <img src="image/image 10.png" alt="" class="relative h-[500px]  w-full">
-      <div class="absolute bg-gradient top-0 left-0 bottom-0 right-0 "></div>
-      <div class="absolute bottom-4 left-4 ">
+      <div class="absolute bg-black left-0 top-0 w-full h-full z-30 opacity-[0.3]">
+      </div>
+        <img src="image/image 10.png" alt="" class="relative h-[500px] w-full">
+      <div class="absolute bottom-6 left-8 text-white z-50">
         <h3 class="">Drinking from the sea of knowledge</h3>
       <h4 class="">Digital / Exhibition / VR / AR</h4>
       </div>
     </div>
 
     <div class="relative">
-      <img src="image/image 9.png" alt="" class="relative h-[500px]  w-full">
-      <div class="absolute bg-gradient top-0 left-0 bottom-0 right-0 "></div>
-      <div class="absolute bottom-4 left-4 ">
+      <img src="image/image 9.png" alt="" class="relative h-[500px]  hover:scale-125 w-full">
+      <div class="absolute bg-black left-0 top-0 w-full h-full z-30 opacity-[0.3]">
+      </div>
+      <div class="absolute bottom-6 left-8 z-50 text-white">
         <h3 class="">Drinking from the sea of knowledge</h3>
       <h4 class="">Digital / Exhibition / VR / AR</h4>
       </div>
     </div>
     
     <div class="relative">
-      <img src="image/image 11.png" alt="" class="relative h-[500px]  w-full">
-      <div class="absolute bg-gradient top-0 left-0 bottom-0 right-0 "></div>
-      <div class="absolute bottom-4 left-4 ">
+      <img src="image/image 11.png" alt="" class="relative h-[500px] hover:scale-125  w-full">
+      <div class="absolute bg-black left-0 top-0 w-full h-full z-30 opacity-[0.3]">
+      </div>
+      <div class="absolute bottom-6 left-8 z-50 text-white">
         <h3 class="">Drinking from the sea of knowledge</h3>
       <h4 class="">Digital / Exhibition / VR / AR</h4>
       </div>
     </div>
 
     <div class="relative">
-      <img src="image/image 12.png" alt="" class="relative h-[500px]  w-full">
-      <div class="absolute bg-gradient top-0 left-0 bottom-0 right-0 "></div>
-      <div class="absolute bottom-4 left-4 ">
+      <img src="image/image 12.png" alt="" class="relative h-[500px] hover:scale-125 overflow-hidden  w-full">
+      <div class="absolute bg-black left-0 top-0 w-full h-full z-10 opacity-[0.3]">
+      </div>
+      <div class="absolute bottom-6 left-8 z-50 text-white">
         <h3 class="">Drinking from the sea of knowledge</h3>
       <h4 class="">Digital / Exhibition / VR / AR</h4>
       </div>
@@ -229,7 +243,7 @@
   <div class="container text-center mx-auto">
     <h3 class="text-red-600 font-Noticia font-bold text-2xl my-7">Ready To Work?</h3>
     <p class="text-xl text-pcolor">Thornridge Cir. Shiloh, Hawaii 81063</p>
-    <h2 class="text-bold text-5xl font-Noticia my-6">helloalex@gmail.com</h2>
+    <h2 class="text-bold md:text-5xl sm:text-3xl text-2xl font-Noticia my-6 w-auto">helloalex@gmail.com</h2>
     <p class="text-xl text-pcolor my-4">+880 (308) 555-0121</p>
     <div class="inline-block text-center mb-20">
       <a href="#" class="text-sm px-3 text-[#222222]">Whatsapp</a>

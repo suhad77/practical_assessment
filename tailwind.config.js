@@ -17,9 +17,13 @@ module.exports = {
         heading: '74px'
       },
       colors:{
-        gradient:'linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%)',
-        pcolor:'#888888'
-
+        gradient:'linear-gradient(180deg, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 75%, rgba(0, 0, 0, 1) 100%)',
+        pcolor:'#888888',
+        circle: '#FF5733'
+        
+      },
+      spacing:{
+        iheight: '70vh'
       }
     },
   },
